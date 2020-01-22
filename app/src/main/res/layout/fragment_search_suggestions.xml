@@ -2,13 +2,13 @@
 <!-- This Source Code Form is subject to the terms of the Mozilla Public
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-<org.mozilla.focus.widget.ResizableKeyboardLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<org.grabski.focus.widget.ResizableKeyboardLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="org.mozilla.focus.searchsuggestions.ui.SearchSuggestionsFragment">
+    tools:context="org.grabski.focus.searchsuggestions.ui.SearchSuggestionsFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/enable_search_suggestions_container"
@@ -141,4 +141,4 @@
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 
-</org.mozilla.focus.widget.ResizableKeyboardLinearLayout>
+</org.grabski.focus.widget.ResizableKeyboardLinearLayout>

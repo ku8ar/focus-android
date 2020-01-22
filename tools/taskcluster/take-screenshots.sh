@@ -38,7 +38,7 @@ python $directory/generate_screengrab_config.py $@
 
 # Install app and make sure directory for taking screenshot exists.
 adb install -r app/build/outputs/apk/focus/nightly/app-focus-armeabi-v7a-debug.apk
-adb shell mkdir /data/data/org.mozilla.focus.debug/files
+adb shell mkdir /data/data/org.grabski.focus.debug/files
 
 # Take screenshots
 fastlane screengrab run

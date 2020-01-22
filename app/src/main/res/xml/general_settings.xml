@@ -5,7 +5,7 @@
 
 <androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <org.mozilla.focus.widget.DefaultBrowserPreference
+    <org.grabski.focus.widget.DefaultBrowserPreference
         android:key="@string/pref_key_default_browser"
         android:layout="@layout/focus_preference_no_icon"
         android:title="@string/preference_default_browser2" />
@@ -17,7 +17,7 @@
 
     <!-- Empty default: we use an empty string to indicate "system default" language being selected -->
     <!--suppress AndroidDomInspection -->
-    <org.mozilla.focus.widget.LocaleListPreference
+    <org.grabski.focus.widget.LocaleListPreference
         android:defaultValue=""
         android:key="@string/pref_key_locale"
         android:layout="@layout/focus_preference_no_icon"

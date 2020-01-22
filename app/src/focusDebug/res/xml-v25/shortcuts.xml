@@ -11,8 +11,8 @@
         android:shortcutLongLabel="@string/shortcut_erase_long_label">
         <intent
             android:action="erase"
-            android:targetPackage="org.mozilla.focus.debug"
-            android:targetClass="org.mozilla.focus.activity.EraseShortcutActivity">
+            android:targetPackage="org.grabski.focus.debug"
+            android:targetClass="org.grabski.focus.activity.EraseShortcutActivity">
                 <extra android:name="shortcut" android:value="true" />
         </intent>
     </shortcut>
@@ -24,8 +24,8 @@
       android:shortcutLongLabel="@string/shortcut_erase_and_open_long_label">
     <intent
         android:action="erase"
-        android:targetPackage="org.mozilla.focus.debug"
-        android:targetClass="org.mozilla.focus.activity.EraseAndOpenShortcutActivity">
+        android:targetPackage="org.grabski.focus.debug"
+        android:targetClass="org.grabski.focus.activity.EraseAndOpenShortcutActivity">
       <extra android:name="shortcut" android:value="true" />
     </intent>
   </shortcut>

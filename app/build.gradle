@@ -9,7 +9,7 @@ android {
     compileSdkVersion 28
     buildToolsVersion '28.0.3'
     defaultConfig {
-        applicationId "org.mozilla"
+        applicationId 'org.grabski'
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 11 // This versionCode is "frozen" for local builds. For "release" builds we
@@ -379,7 +379,7 @@ def getEnabledLocales() {
     return langs.sort { it }
 }
 
-def generatedLocaleListDir = 'src/main/java/org/mozilla/focus/generated'
+def generatedLocaleListDir = 'src/main/java/org/grabski/focus/generated'
 def generatedLocaleListFilename = 'LocaleList.java'
 
 task generateLocaleList {
@@ -390,7 +390,7 @@ task generateLocaleList {
 
         localeList.delete()
         localeList.createNewFile()
-        localeList << "package org.mozilla.focus.generated;" << "\n" << "\n"
+        localeList << "package org.grabski.focus.generated;" << "\n" << "\n"
         localeList << "import java.util.Arrays;" << "\n"
         localeList << "import java.util.Collections;" << "\n"
         localeList << "import java.util.List;" << "\n"

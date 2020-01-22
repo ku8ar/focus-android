@@ -3,7 +3,7 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-package org.mozilla.focus.utils;
+package org.grabski.focus.utils;
 
 import android.app.Activity;
 import android.app.Application;
@@ -14,9 +14,9 @@ import com.adjust.sdk.Adjust;
 import com.adjust.sdk.AdjustConfig;
 import com.adjust.sdk.LogLevel;
 
-import org.mozilla.focus.BuildConfig;
-import org.mozilla.focus.FocusApplication;
-import org.mozilla.focus.telemetry.TelemetryWrapper;
+import org.grabski.focus.BuildConfig;
+import org.grabski.focus.FocusApplication;
+import org.grabski.focus.telemetry.TelemetryWrapper;
 
 public class AdjustHelper {
     public static void setupAdjustIfNeeded(FocusApplication application) {

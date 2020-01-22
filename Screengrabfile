@@ -7,8 +7,8 @@
 # file and generate the final configuration that we use inside
 # a taskcluster task.
 
-app_package_name 'org.mozilla.focus.debug'
-use_tests_in_packages ['org.mozilla.focus.screenshots']
+app_package_name 'org.grabski.focus.debug'
+use_tests_in_packages ['org.grabski.focus.screenshots']
 
 app_apk_path 'app/build/outputs/apk/focusArm/debug/app-focus-arm-debug.apk'
 tests_apk_path 'app/build/outputs/apk/androidTest/focusArm/debug/app-focus-arm-debug-androidTest.apk'

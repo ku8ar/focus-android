@@ -71,7 +71,7 @@
     <androidx.preference.PreferenceCategory
         android:layout="@layout/focus_preference_category"
         android:title="@string/preference_category_cookies">
-        <org.mozilla.focus.widget.CookiesPreference
+        <org.grabski.focus.widget.CookiesPreference
             android:entries="@array/preference_privacy_cookies_options"
             android:entryValues="@array/preference_privacy_cookies_options"
             android:key="@string/pref_key_performance_enable_cookies"
@@ -108,7 +108,7 @@
         android:key="@string/pref_key_category_safe_browsing"
         android:layout="@layout/focus_preference_category"
         android:title="@string/preference_category_safe_browsing">
-        <org.mozilla.focus.settings.SafeBrowsingSwitchPreference
+        <org.grabski.focus.settings.SafeBrowsingSwitchPreference
             android:defaultValue="true"
             android:key="@string/pref_key_safe_browsing"
             android:layout="@layout/focus_preference_no_icon"
@@ -120,7 +120,7 @@
         android:layout="@layout/focus_preference_category"
         android:title="@string/preference_category_data_choices">
 
-        <org.mozilla.focus.widget.TelemetrySwitchPreference
+        <org.grabski.focus.widget.TelemetrySwitchPreference
             android:layout="@layout/focus_preference"
             android:key="@string/pref_key_telemetry"
             android:summary="@string/preference_mozilla_telemetry_summary2"

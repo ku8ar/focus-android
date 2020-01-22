@@ -1,4 +1,4 @@
-package org.mozilla.focus.webview.matcher.util;
+package org.grabski.focus.webview.matcher.util;
 
 import org.junit.Test;
 

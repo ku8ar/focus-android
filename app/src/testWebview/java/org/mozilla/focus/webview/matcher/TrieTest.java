@@ -1,9 +1,9 @@
-package org.mozilla.focus.webview.matcher;
+package org.grabski.focus.webview.matcher;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mozilla.focus.webview.matcher.Trie.WhiteListTrie;
-import org.mozilla.focus.webview.matcher.util.FocusString;
+import org.grabski.focus.webview.matcher.Trie.WhiteListTrie;
+import org.grabski.focus.webview.matcher.util.FocusString;
 import org.robolectric.RobolectricTestRunner;
 
 import static org.junit.Assert.assertEquals;

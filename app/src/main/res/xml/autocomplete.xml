@@ -5,7 +5,7 @@
 
     <androidx.preference.PreferenceCategory>
 
-        <org.mozilla.focus.autocomplete.AutocompleteDefaultDomainsPreference
+        <org.grabski.focus.autocomplete.AutocompleteDefaultDomainsPreference
             android:defaultValue="true"
             android:key="@string/pref_key_autocomplete_preinstalled"
             android:summary="@string/preference_autocomplete_topsite_summary"
@@ -15,7 +15,7 @@
 
     <androidx.preference.PreferenceCategory>
 
-        <org.mozilla.focus.autocomplete.AutocompleteCustomDomainsPreference
+        <org.grabski.focus.autocomplete.AutocompleteCustomDomainsPreference
             android:defaultValue="true"
             android:key="@string/pref_key_autocomplete_custom"
             android:summary="@string/preference_autocomplete_user_list_summary"
